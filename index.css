@@ -1,0 +1,25 @@
+ body {
+     width: 100vw;
+     height: 100vh;
+
+ }
+
+ div {
+     width: 50vh;
+     height: 50vh;
+     background-color: blue;
+     margin: 25vh 78.75vh;
+     padding: 10vh;
+ }
+
+ div div {
+     width: 30vh;
+     height: 30vh;
+     background-color: brown;
+     margin: 0;
+
+ }
+
+ /*body{
+    background-color: beige;
+}*/
