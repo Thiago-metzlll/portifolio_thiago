@@ -1,22 +1,12 @@
 footer{
     width:100%;
-    height:12%;
+    height:18%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: end;
 
     background-color:#c0a78400;
-}
-
-#aling{
-    width: 30%;
-    height: 70%;
-    flex-direction: row;
-    align-items: center;
-    justify-content: end;
-
-    
 }
 
 /* From Uiverse.io by asgardOP */
@@ -143,7 +133,7 @@ footer{
   #aling_socialmedia{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: end;
     align-items: center;
 
   }

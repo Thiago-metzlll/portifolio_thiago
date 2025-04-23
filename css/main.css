@@ -5,8 +5,9 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 10%;
  
-    background-color: #9b8c82;
+    background-color: var(--browngray);
 }
 /*mineeee*/
 /* From Uiverse.io by 00Kubi */ 
@@ -480,6 +481,7 @@ main{
     flex-direction: column;
     align-items: start;
     justify-content: center;
+    gap: 10%;
 
     
 }

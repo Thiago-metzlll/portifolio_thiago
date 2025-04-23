@@ -9,7 +9,15 @@ body{
 
     margin: 0;
     padding: 0;
+    background-color: #9b8c82;
+
 }
+
+:root{
+    --browngray: #9b8c82;
+    --brownlight: #c0a784;
+    --blackShadow: #35353591;
+    }
 
 
 
