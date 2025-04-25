@@ -6,8 +6,11 @@ main{
     align-items: center;
     justify-content: center;
     gap: 10%;
+    background-image: url(/images/fundo.main.png);
+    background-repeat: repeat;
+    background-size: 200px;
  
-    background-color: var(--browngray);
+    
 }
 /*mineeee*/
 /* From Uiverse.io by 00Kubi */ 
@@ -475,8 +478,8 @@ main{
 
 /*aqui é o div do nome e sobrenome*/
 #name_main{
-    width:30% ;
-    height:70% ;
+    width:35% ;
+    height:100% ;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -486,7 +489,7 @@ main{
     
 }
 #first_name{
-    font: size 2vw; 
+    font-size: 5vw; 
     margin:0 5% ;
 
    
@@ -494,7 +497,7 @@ main{
 }
 
 #last_name{
-    font: size 2vw; 
+    font-size: 3vw; 
     margin:0 5% ;
 
 

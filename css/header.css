@@ -1,12 +1,14 @@
 header{
     width: 100%;
     height: 12%;
-    background-color: var(--brownlight);
-
+    background-image: url(/images/grass.png);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    background-repeat: repeat;
+    background-size: 66px 66px; /* para ficar tipo pixel art */
+
 }
 
 /*no description vai o logo e a ocupação*/
@@ -30,8 +32,9 @@ header{
 
 }
 #ocupation{
-    font: size 2vw; 
+    font-size:  4vh; 
     margin:0 5% ;
+    font-family: "VT323", monospace;
     
 }
 
@@ -39,8 +42,8 @@ header{
 /*aqui é a id de todos botões*/
 
 #buttons_header{
-    width: 35%;
-    height: 100%;
+    width: 30%;
+    height: 90%;
     display: flex;
     flex-direction: row;
     align-items:center ;

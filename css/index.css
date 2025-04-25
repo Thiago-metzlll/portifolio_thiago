@@ -1,25 +1,30 @@
 @import url(header.css);
 @import url(main.css);
 @import url(footer.css);
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 
 body{
     width: 100vw;
     height: 100vh;
-
     margin: 0;
     padding: 0;
-    background-color: #9b8c82;
-
+    background-image: url(../images/fundo.main.png);
+    background-repeat: repeat;
+    background-size: 200px; 
+    font-family: var(--font-retro);
+    color: #e0e0e0; /* opcional: combina bem com fundo escuro */
+    
 }
 
 :root{
     --browngray: #9b8c82;
     --brownlight: #c0a784;
     --blackShadow: #35353591;
+    --font-retro:'VT323', monospace;
     }
 
-
+  
 
 
 
