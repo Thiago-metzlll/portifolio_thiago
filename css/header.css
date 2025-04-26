@@ -91,10 +91,6 @@ header{
         flex-direction: row;
         align-items: center;
         justify-content: center;}
-   
-    #description{
-        display: none;
-    }
 
     #buttons_header{
         width: 30%;
@@ -105,7 +101,9 @@ header{
         justify-content: center;
         gap: 30%;
     }
-
+    #description{
+        display: none;
+    }
     #home{
         display: none;
     }
