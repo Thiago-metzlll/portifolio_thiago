@@ -3,30 +3,99 @@
 @import url(footer.css);
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
+@keyframes girar {
+    0% {
+        transform: rotate(0turn);
+    }
 
-body{
+    35% {
+        transform: rotate(0.5turn);
+    }
+
+    75% {
+        transform: rotate(0.75turn)
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+body {
     width: 100vw;
     height: 100vh;
     margin: 0;
     padding: 0;
     background-image: url(../images/fundo.main.png);
     background-repeat: repeat;
-    background-size: 200px; 
+    background-size: 200px;
     font-family: var(--font-retro);
-    color: #e0e0e0; /* opcional: combina bem com fundo escuro */
-    
+    color: #e0e0e0;
+    /* opcional: combina bem com fundo escuro */
+
 }
 
-:root{
+:root {
     --browngray: #9b8c82;
     --brownlight: #c0a784;
     --blackShadow: #35353591;
-    --font-retro:'VT323', monospace;
+    --font-retro: 'VT323', monospace;
+}
+
+#animation_test {
+    background-image: url(/images/pedregulho.png);
+    width: 10vw;
+    height: 10vh;
+    position: absolute;
+    transform: scale(1.5);
+    animation: 5s linear girar infinite;
+}
+
+#animation_test:hover {
+    animation-play-state: paused;
+}
+
+
+#otheranimation_test {
+    background-image: url(/images/pedregulho.png);
+    width: 10vw;
+    height: 10vh;
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    animation: 5s linear move_screen infinite;
+    z-index: 1;
+    
+}
+
+#otheranimation_test:hover {
+    animation-play-state: paused;
+}
+
+@keyframes move_screen {
+
+    0%,
+    100% {
+        top: 10vh;
+        left: 10vw;
     }
 
-  
+    25% {
+        top: 20vh;
+        left: 20vh;
+    }
 
+    50% {
+        top: 30vh;
+        left: 30vw;
+    }
 
+    75% {
+        top: 40vh;
+        left: 40vw;
+    }
+
+}
 
 /* all
  essa parte é o cabeçalho

@@ -354,7 +354,7 @@ main {
 
 .container:hover .torch {
   transform: scale(1.05) rotate(2deg);
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in-out;
 }
 
 .container:hover .simple-text {
@@ -547,6 +547,8 @@ main {
     background-image: url(/images/fundo.main.png);
     background-repeat: repeat;
     background-size: 200px;
+    z-index: -2;
+    
 
   }
 
@@ -558,6 +560,8 @@ main {
     align-items: start;
     justify-content: center;
     gap: 10%;
+    z-index: none;
+    
 
 
   }
@@ -565,6 +569,7 @@ main {
   #first_name {
     font-size: 5vw;
     margin: 0 5%;
+    z-index: 1;
   }
 
   #last_name {
