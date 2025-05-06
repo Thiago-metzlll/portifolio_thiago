@@ -1,21 +1,15 @@
 header{
     width: 100%;
-    height: 12%;
-   
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    
+    height: 12%;    
     background-image: url(/images/grass.png);
     background-repeat: repeat;
     background-size: 150px 150px; /* para ficar tipo pixel art */
 
 }
 
-/*no description vai o logo e a ocupação*/
+/*no header_info vai o logo e a ocupação*/
 
-#description{
+.header_info{
     width: 35%;
     height: 100%;
     display: flex;
@@ -24,7 +18,7 @@ header{
     justify-content: start;
     
 }
-#logo{
+.profile_logo{
     width: 12%;
     height: 50%;
     background-image:url(../images/image.perfil.png);
@@ -33,7 +27,7 @@ header{
   
 
 }
-#ocupation{
+.occupation{
     font-size:  4vh; 
     margin:0 5% ;
     font-family: "VT323", monospace;
@@ -41,9 +35,9 @@ header{
 }
 
 
-/*aqui é a id de todos botões*/
+/*aqui é a class de todos botões*/
 
-#buttons_header{
+.buttons_header{
     width: 30%;
     height: 90%;
     display: flex;

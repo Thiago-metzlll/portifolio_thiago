@@ -10,7 +10,6 @@ main {
   background-repeat: repeat;
   background-size: 200px;
 
-
 }
 
 /*mineeee*/
@@ -502,30 +501,34 @@ main {
 
 
 /*aqui é o div do nome e sobrenome*/
-#name_main {
-  width: 35%;
-  height: 100%;
+.main_info{
+
+}
+.full_name {
+
+  width: 20%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  gap: 10%;
+  gap: 15%;
 
 
 }
 
-#first_name {
+.first_name {
   font-size: 7vw;
   margin: 0 5%;
 }
 
-#last_name {
+.last_name {
   font-size: 5vw;
   margin: 0 5%;
 }
 
-#little-description {
-  font-size: 5vw;
+.main_description {
+  font-size: 3vw;
   margin: 0 5%;
 }
 
@@ -548,11 +551,11 @@ main {
     background-repeat: repeat;
     background-size: 200px;
     z-index: -2;
-    
+
 
   }
 
-  #name_main {
+  .info_main {
     width: 50%;
     height: 100%;
     display: flex;
@@ -561,23 +564,24 @@ main {
     justify-content: center;
     gap: 10%;
     z-index: none;
-    
-
-
   }
 
-  #first_name {
+  .allname {
+    
+  }
+
+  .first_name {
     font-size: 5vw;
     margin: 0 5%;
     z-index: 1;
   }
 
-  #last_name {
+  .last_name {
     font-size: 4vw;
     margin: 0 5%;
   }
 
-  #little_description {
+  .main_description {
     font-size: 2vw;
     margin: 0 5%;
     transform: scale(1.5);
