@@ -3,12 +3,10 @@ header{
     height: 12%;    
     background-image: url(/images/grass.png);
     background-repeat: repeat;
-    background-size: 150px 150px; /* para ficar tipo pixel art */
-
+    background-size: 150px 150px; /* img tipo pixel art */
 }
 
 /*no header_info vai o logo e a ocupação*/
-
 .header_info{
     width: 35%;
     height: 100%;
@@ -24,14 +22,12 @@ header{
     background-image:url(../images/image.perfil.png);
     background-size: cover; /* cobre toda a tela */
     background-position: center; /* centraliza a imagem */
-  
-
 }
+
 .occupation{
     font-size:  4vh; 
-    margin:0 5% ;
     font-family: "VT323", monospace;
-    
+    margin:none
 }
 
 
@@ -39,15 +35,52 @@ header{
 
 .buttons_header{
     width: 30%;
-    height: 90%;
+    height: 80%;
     display: flex;
     flex-direction: row;
     align-items:center ;
     justify-content: space-around;
-    transform: scale(1.5);
-
-
+    transform: scale(0.8);
 }
+
+/*aqui é a class que estiliza os botões*/
+.button_header{
+    width: 32%;
+    height:40% ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius:27%;
+
+    background-color: #805b42;
+}
+
+.button {
+    --bg: #000;
+    --hover-bg: #9f7753;
+    --hover-text: #000;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+  }
+  
+  .button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+
+
 
 @media (max-width: 1200px){
     #buttons_header{
@@ -140,39 +173,3 @@ header{
         display: none;
     }
 }
-
-.button_header{
-    width: 32%;
-    height:40% ;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    border-radius:27%;
-
-    background-color: #805b42;
-}
-
-.button {
-    --bg: #000;
-    --hover-bg: #9f7753;
-    --hover-text: #000;
-    color: #fff;
-    cursor: pointer;
-    border: 1px solid var(--bg);
-    border-radius: 4px;
-    padding: 0.8em 2em;
-    background: var(--bg);
-    transition: 0.2s;
-  }
-  
-  .button:hover {
-    color: var(--hover-text);
-    transform: translate(-0.25rem, -0.25rem);
-    background: var(--hover-bg);
-    box-shadow: 0.25rem 0.25rem var(--bg);
-  }
-  
-  .button:active {
-    transform: translate(0);
-    box-shadow: none;
-  }
