@@ -1,9 +1,6 @@
-document.addEventListener('DOMContentLoaded', () => {
-    //Aqui estamos fazendo o cabeçário usando JS e com a variável let (mais comum e que muda)
-    //let div: cria a memória, ou seja, a tag, deve ser nesse modelo, usando a biblioteca docment. Entre parêntesis é o tipo da tag (div,h1...) e em laranja, o nome da classe ou id
-    //appendChild: insere um filho
-    //h5.textContent: inserir um texto
-    let header_body = document.getElementById('header')
+export
+function createHeader(){ 
+let header_body = document.getElementById('header')
 
     let header = document.createElement('div')
     header.className = 'header_info line_space-around'
@@ -24,6 +21,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let button_home = document.createElement('button')
     button_home.className = 'button'
+    button_home.addEventListener('click', ()=>{
+        window.location.href = './projects.html'
+    })
+    
 
     let fa_solidfa_house = document.createElement('i')
     fa_solidfa_house.className = 'fa_solid fa_house'
@@ -37,6 +38,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let button_github = document.createElement('button')
     button_github.className = 'button'
+    button_github.addEventListener('click', ()=>{
+        window.location.href = './projects.html'
+    })
 
     let fa_brandsfa_github = document.createElement('i')
     fa_brandsfa_github.className = 'fa_brandsfa_github'
@@ -50,6 +54,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let button_projetos = document.createElement('button')
     button_projetos.className = 'button'
+    button_projetos.addEventListener('click', ()=>{
+        window.location.href = './projects.html'
+    })
 
     let fa_solidfa_code = document.createElement('i')
     fa_solidfa_code.className = 'fa_solidfa_code'
@@ -66,4 +73,4 @@ document.addEventListener('DOMContentLoaded', () => {
     buttons_header.appendChild(button_projetos)
 
     header_body.appendChild(buttons_header)
-})
+}
