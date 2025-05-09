@@ -1,0 +1,58 @@
+#nav_banner{
+    width: 100%;
+    height: 40%;
+
+    margin: 2% 0 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+#banners{
+    position: absolute;
+    left: -000vw;
+    
+    width: 300%;
+    height: 40%;
+    background-color: red;
+
+    display: flex;
+    flex-direction: row;
+
+    z-index: -1;
+
+    transition: all 0.2s ease-in-out;
+}
+
+
+.banner{
+    width: 94%;
+    height: 100%;
+    margin: 0 3%;
+    background-color: #9b8c82;
+}
+
+#nav_btns{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+} 
+
+.circle_btn{
+    width: 1.2vw;
+    height: 1.2vh;
+
+    border-radius: 50%;
+    border: none;
+
+    margin: 0 0.5vw 0.7vw;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    background-color: white;
+}
+
+.circle_btn:hover{
+    transform: scale(1.2);
+}
