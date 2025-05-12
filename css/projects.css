@@ -4,3 +4,13 @@
 @import url(./menu.css);
 @import url(./banner.css);
 @import url(./cards.css);
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+);
+    background-size: cover;
+    background-position: center;
+}
