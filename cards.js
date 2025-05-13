@@ -13,12 +13,12 @@ export function creatCards(){
         titulo_cartao.textContent = cards_bd[i].nome;  // Aqui é 'nome', não 'titulo_cartao'
 
         // Criando o valor do cartão
-        let valor_cartão = document.createElement('h4');
-        valor_cartão.textContent = `Linguagens: ${cards_bd[i].languages}`;  // Aqui é 'languages', não 'valor_cartão'
+        let valor_cartao = document.createElement('h4');
+        valor_cartao.textContent = `Linguagens: ${cards_bd[i].languages}`;  // Aqui é 'languages', não 'valor_cartão'
 
         // Criando o ícone do cartão
         let i_cartao = document.createElement('i');
-        i_cartao.className = 'fa-solid fa-face-smile';  // Usei um ícone fixo aqui, ou altere conforme necessário
+        i_cartao.className = 'fa-solid fa-face-smile';  // Usado um ícone fixo aqui
 
         // Adicionando os elementos ao cartão
         div_cartao.appendChild(i_cartao);

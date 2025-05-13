@@ -4,7 +4,7 @@ const qnt_banners = 3;
 export function switchBanner(n_banner) {
     let banners = document.getElementById("banners");
     
-    // A largura de cada banner é 90vw (como você definiu), então movemos para a posição correta
+    // A largura de cada banner é 90vw, então movemos para a posição correta
     banners.style.left = `-${(n_banner - 1) * 100}vw`;
 
     actual_banner = n_banner;
