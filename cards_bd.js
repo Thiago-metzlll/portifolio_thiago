@@ -1,0 +1,20 @@
+export const cards_bd = [
+    { nome: 'Projeto Aurora', languages: 'JS e HTML', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_tOidpCBTSvo7PrZ-lLUk_Lex_wOGtOJtyt61btD9YiMJ9rWD8qPu_sOc7j4EASkb1c&usqp=CAUl' },
+    { nome: 'Sistema SolarX', languages: 'React e CSS', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_tOidpCBTSvo7PrZ-lLUk_Lex_wOGtOJtyt61btD9YiMJ9rWD8qPu_sOc7j4EASkb1c&usqp=CAUl' },
+    { nome: 'Portfolio Zen', languages: 'HTML e SCSS', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_tOidpCBTSvo7PrZ-lLUk_Lex_wOGtOJtyt61btD9YiMJ9rWD8qPu_sOc7j4EASkb1c&usqp=CAUl' },
+    { nome: 'EcoTrack App', languages: 'JS e Firebase', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_tOidpCBTSvo7PrZ-lLUk_Lex_wOGtOJtyt61btD9YiMJ9rWD8qPu_sOc7j4EASkb1c&usqp=CAUl' },
+    { nome: 'ClimaTech', languages: 'HTML, JS e API', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_tOidpCBTSvo7PrZ-lLUk_Lex_wOGtOJtyt61btD9YiMJ9rWD8qPu_sOc7j4EASkb1c&usqp=CAUl' },
+    { nome: 'Dashboard One', languages: 'React e Tailwind', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_tOidpCBTSvo7PrZ-lLUk_Lex_wOGtOJtyt61btD9YiMJ9rWD8qPu_sOc7j4EASkb1c&usqp=CAUl' },
+    { nome: 'Loja Fictícia', languages: 'Next.js e MongoDB', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_tOidpCBTSvo7PrZ-lLUk_Lex_wOGtOJtyt61btD9YiMJ9rWD8qPu_sOc7j4EASkb1c&usqp=CAUl' },
+    { nome: 'Finanças Já', languages: 'Vue e Node.js', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_tOidpCBTSvo7PrZ-lLUk_Lex_wOGtOJtyt61btD9YiMJ9rWD8qPu_sOc7j4EASkb1c&usqp=CAUl' },
+    { nome: 'Contador de Dias', languages: 'JS puro', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_tOidpCBTSvo7PrZ-lLUk_Lex_wOGtOJtyt61btD9YiMJ9rWD8qPu_sOc7j4EASkb1c&usqp=CAUl' },
+    { nome: 'ToDo Simples', languages: 'JS e LocalStorage', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_tOidpCBTSvo7PrZ-lLUk_Lex_wOGtOJtyt61btD9YiMJ9rWD8qPu_sOc7j4EASkb1c&usqp=CAUl' },
+    { nome: 'Galeria Arte', languages: 'HTML, CSS e JS', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_tOidpCBTSvo7PrZ-lLUk_Lex_wOGtOJtyt61btD9YiMJ9rWD8qPu_sOc7j4EASkb1c&usqp=CAUl' },
+    { nome: 'Cronômetro Pro', languages: 'JS e Bootstrap', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_tOidpCBTSvo7PrZ-lLUk_Lex_wOGtOJtyt61btD9YiMJ9rWD8qPu_sOc7j4EASkb1c&usqp=CAUl' },
+    { nome: 'Gerador de Senhas', languages: 'JS puro', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_tOidpCBTSvo7PrZ-lLUk_Lex_wOGtOJtyt61btD9YiMJ9rWD8qPu_sOc7j4EASkb1c&usqp=CAUl' },
+    { nome: 'Blog DevLife', languages: 'HTML e CSS', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_tOidpCBTSvo7PrZ-lLUk_Lex_wOGtOJtyt61btD9YiMJ9rWD8qPu_sOc7j4EASkb1c&usqp=CAUl' },
+    { nome: 'Cardápio Online', languages: 'JS e JSON', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_tOidpCBTSvo7PrZ-lLUk_Lex_wOGtOJtyt61btD9YiMJ9rWD8qPu_sOc7j4EASkb1c&usqp=CAUl' },
+    { nome: 'Quiz Interativo', languages: 'HTML, CSS e JS', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_tOidpCBTSvo7PrZ-lLUk_Lex_wOGtOJtyt61btD9YiMJ9rWD8qPu_sOc7j4EASkb1c&usqp=CAUl' },
+    { nome: 'Animações CSS', languages: 'HTML e CSS', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_tOidpCBTSvo7PrZ-lLUk_Lex_wOGtOJtyt61btD9YiMJ9rWD8qPu_sOc7j4EASkb1c&usqp=CAUl' },
+    { nome: 'Portfólio Clean', languages: 'React e Styled Components', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_tOidpCBTSvo7PrZ-lLUk_Lex_wOGtOJtyt61btD9YiMJ9rWD8qPu_sOc7j4EASkb1c&usqp=CAUl' }
+];
