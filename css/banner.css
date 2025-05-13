@@ -10,6 +10,7 @@
     justify-content: end;
 
     background-color: rgb(24, 60, 167);
+    
 }
 
 
@@ -25,7 +26,7 @@
     display: flex;
     flex-direction: row;
 
-    z-index: -1;
+
 
     transition: all 0.2s ease-in-out;
 }
@@ -42,6 +43,7 @@
     position: absolute;
     left: 50%;
     top: 55%;
+    z-index: 2;
 } 
 
 .circle_btn{
@@ -59,4 +61,11 @@
 
 .circle_btn:hover{
     transform: scale(1.2);
+}
+#scnd_banner{
+    background-color: rgb(43, 139, 19);
+}
+
+#third_banner{
+    background-color: rgb(19, 139, 139);
 }

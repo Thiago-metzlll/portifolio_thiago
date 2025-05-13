@@ -11,7 +11,7 @@
       rel="stylesheet">
     <script type="module" src="./index.js"></script>
 
-    <body>
+  <body>
       <header id="header"> </header>
       <nav id="nav_banner">
         <div id="banners">
@@ -22,15 +22,13 @@
 
       </nav>
       <nav id="nav_btns">
-        <div id="banners">
-          <div class="banner"></div>
-          <div class="banner"></div>
-          <div class="banner"></div>
-        </div>
         <div id="btn_banners">
-          <button class="circle_btn" onclick="switchBanner (1)"></button>
-          <button class="circle_btn" onclick="switchBanner (2)"></button>
-          <button class="circle_btn" onclick="switchBanner (3)"></button>
+          <button class="circle_btn" id="btn_banner_1"
+            onclick="switchBanner(1)"></button>
+          <button class="circle_btn" id="btn_banner_2"
+            onclick="switchBanner(2)"></button>
+          <button class="circle_btn" id="btn_banner_3"
+            onclick="switchBanner(3)"></button>
         </div>
 
         <button onclick="switchMenu()" id="btn_menu"></button>
@@ -106,6 +104,6 @@
 
         </section>
       </main>
-    </body>
+   </body>
 
   </html>
