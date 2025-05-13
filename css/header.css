@@ -4,6 +4,13 @@ header{
     background-image: url(/images/grass.png);
     background-repeat: repeat;
     background-size: 150px 150px; /* img tipo pixel art */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+
 }
 
 /*no header_info vai o logo e a ocupação*/
