@@ -6,7 +6,7 @@ main {
   align-items: center;
   justify-content: center;
   gap: 10%;
-  background-image: url(/images/fundo.main.png);
+  background-image: url(./../../../../images/fundo.main.png);
   background-repeat: repeat;
   background-size: 200px;
 
@@ -549,8 +549,8 @@ gap: 10%;
     align-items: center;
     justify-content: center;
     gap: 7%;
-    background-image: url(/images/fundo.main.png);
-    background-repeat: repeat;
+    
+    
     background-size: 200px;
     z-index: -2;
 
