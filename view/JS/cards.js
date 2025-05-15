@@ -1,4 +1,4 @@
-import { cards_bd } from "../../../model/cards_bd.js"
+import { cards_bd } from "../../model/cards_bd.js"
 
 export function creatCards(){
     let cards_section = document.getElementById('cards');
